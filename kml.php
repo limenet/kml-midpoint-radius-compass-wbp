@@ -62,6 +62,6 @@ flush();
 header('Content-Type: text/kml');
 header('Content-Disposition: attachment; filename=Lines__'.implode('_', $origin).'.kml');
 header('Expires: 0');
-echo($file);
+echo $file;
 ?>
 
